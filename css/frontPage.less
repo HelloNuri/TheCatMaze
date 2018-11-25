@@ -12,10 +12,9 @@ body {
     to(rgba(255, 255, 255, 0))); */
   background-image: radial-gradient(900px 800px at center, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0), black);
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-
+  // display: flex;
+  // justify-content: center;
+  // flex-direction: column;
 }
 /* 본문이 담길 공간 */
 /* .container{
@@ -24,10 +23,54 @@ body {
   flex-direction: column;
   justify-content: center;
 } */
-/* 본문 텍스트 공간 */
-.text {
-  text-align: center;
+/* 전체를 감싸는 container*/
+/* body에 flex를 적용할 수 있다면 삭제 가능 */
+.container {
   width: 100%;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* 아무 의미 없음 */
+.br{
+  display: inline;
+}
+
+/* 정렬 */
+.align{
+  margin: 0 auto;
+}
+
+hr{
+  width: 80%;
+}
+/* 본문 */
+h1{
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+    color: rgb(255, 92, 0);
+}
+.text {
+  width: 100%;
+  text-align: center;
   font-size: 1.5em;
+}
+.narration{
+  .text;
+  font-style: italic;
+}
+
+.img {
+  width: 640px;
+  height: 425px;
+  .align;
+}
+
+form{
+  .align;
+  input:focus{
+    outline: none;
+    text-align: center;
+  }
 }
