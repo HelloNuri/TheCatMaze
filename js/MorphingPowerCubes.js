@@ -50,10 +50,7 @@ function toggleBackfaces() {
     removeClassName(shape, 'backfaces');
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> develop
 $('.plane').click(function(){
   toggleShape();
 });
