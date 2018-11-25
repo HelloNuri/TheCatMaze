@@ -12,6 +12,9 @@ body {
     to(rgba(255, 255, 255, 0))); */
   background-image: radial-gradient(900px 800px at center, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0), black);
   background-repeat: no-repeat;
+  // display: flex;
+  // justify-content: center;
+  // flex-direction: column;
 }
 /* 본문이 담길 공간 */
 /* .container{
@@ -29,43 +32,45 @@ body {
   flex-direction: column;
 }
 /* 아무 의미 없음 */
-.br {
+.br{
   display: inline;
 }
+
 /* 정렬 */
-.align {
+.align{
   margin: 0 auto;
 }
-hr {
+
+hr{
   width: 80%;
 }
 /* 본문 */
-h1 {
+h1{
   width: 100%;
   text-align: center;
   font-size: 3em;
-  color: #ff5c00;
+    color: rgb(255, 92, 0);
 }
 .text {
   width: 100%;
   text-align: center;
   font-size: 1.5em;
 }
-.narration {
-  width: 100%;
-  text-align: center;
-  font-size: 1.5em;
+.narration{
+  .text;
   font-style: italic;
 }
+
 .img {
   width: 640px;
   height: 425px;
-  margin: 0 auto;
+  .align;
 }
-form {
-  margin: 0 auto;
-}
-form input:focus {
-  outline: none;
-  text-align: center;
+
+form{
+  .align;
+  input:focus{
+    outline: none;
+    text-align: center;
+  }
 }

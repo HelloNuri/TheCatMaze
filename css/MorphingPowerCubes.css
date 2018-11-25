@@ -37,8 +37,8 @@
   -webkit-transition: -webkit-transform 2s, opacity 2s;
   -webkit-backface-visibility: hidden;
 
-/* prevent Drag */
-  -webkit-touch-callout: none;
+  /* prevent Drag */
+-webkit-touch-callout: none;
         user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
