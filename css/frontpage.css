@@ -1,0 +1,16 @@
+body {
+  height: 1400px;
+  background-color: black;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Lucida Grande', Verdana, Arial;
+  font-size: 12px;
+  /* background-image: -webkit-gradient(radial,
+    50% 500, 1,
+    50% 500, 400,
+    from(rgba(255, 255, 255, 0.3)),
+    to(rgba(255, 255, 255, 0))); */
+    background-image: radial-gradient(900px 800px at center,rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0),black);
+
+  background-repeat: no-repeat;
+}
