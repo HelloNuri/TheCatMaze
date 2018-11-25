@@ -1,0 +1,21 @@
+{
+	"files": {
+		"css/frontPage.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "frontpage.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": false
+					}
+				}
+			],
+			"sources": []
+		}
+	}
+}
