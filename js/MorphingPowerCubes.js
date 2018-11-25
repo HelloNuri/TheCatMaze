@@ -49,3 +49,6 @@ function toggleBackfaces() {
   else
     removeClassName(shape, 'backfaces');
 }
+$('.plane').click(function(){
+  toggleShape();
+});
