@@ -13,6 +13,7 @@ body {
   background-image: radial-gradient(900px 800px at center, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0), black);
   background-repeat: no-repeat;
   margin: 0 0;
+  padding-top: 72px;
 }
 /* 본문이 담길 공간 */
 /* .container{
@@ -23,7 +24,7 @@ body {
 } */
 /* 전체를 감싸는 container*/
 /* body에 flex를 적용할 수 있다면 삭제 가능 */
-.container {
+.flexContainer {
   width: 100%;
   display: flex;
   justify-content: center;

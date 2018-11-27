@@ -27,7 +27,7 @@
   height: 200px;
   width: 200px;
   border: 1px solid white;
-  -webkit-border-radius: 12px;
+  /*-webkit-border-radius: 12px;*/
   -webkit-box-sizing: border-box;
   text-align: center;
   font-family: Times, serif;
