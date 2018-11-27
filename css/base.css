@@ -193,10 +193,14 @@ body {
   height: 100%;
 }
 
-h3.hint {
+h3.hint, p.hint {
   margin: 0px 0px 15px 0px;
   color: black;
   text-align: center;
+}
+
+p.hint {
+  font-size: 15px;
 }
 
 a.hint {
