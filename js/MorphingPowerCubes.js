@@ -51,6 +51,6 @@ function toggleBackfaces() {
 
 }
 
-$('.plane').click(function(){
+$('.plane').click(function() {
   toggleShape();
 });

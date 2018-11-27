@@ -16,6 +16,23 @@
 				}
 			],
 			"sources": []
+		},
+		"css/toggleHint.less": {
+			"engines": [
+				{
+					"compiler": "less",
+					"output": "toggleHint.css",
+					"options": {
+						"compress": false,
+						"ieCompat": false,
+						"strictMath": false,
+						"strictUnits": false,
+						"javascriptEnabled": false,
+						"sourceMap": false
+					}
+				}
+			],
+			"sources": []
 		}
 	}
 }
