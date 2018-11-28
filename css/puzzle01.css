@@ -8,29 +8,6 @@
   width: 85px;
 }
 
-figure {
-  display: flex;
-  align-items: flex-end;
-}
-
-#picture1 {
-  height: 511px;
-}
-
-#picture2 {
-  height: 430px;
-}
-
-#picture3 {
-  height: 355px;
-}
-
-#picture4 {
-  height: 254px;
-  position: relative;
-  top: -25px;
-}
-
 .flexContainer1 {
   width: 60%;
   margin: 0 auto;
