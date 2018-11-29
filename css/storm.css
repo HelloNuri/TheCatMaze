@@ -2019,12 +2019,21 @@ body {
 }
 
 /* #title { */
-#navbar-header{
+.navbar-header{
   overflow: visible;
   -webkit-animation: 1000s fall-header ease-out 8.5s;
   animation: 1000s fall-header ease-out 8.5s;
 }
-
+.navbar-collapse .navbar-nav a {
+  -webkit-animation: 1000s fall-list_btn_top_right cubic-bezier(0.85, 0.18, 1, 1.01) 7s;
+  animation: 1000s fall-list_btn_top_right cubic-bezier(0.85, 0.18, 1, 1.01) 7s;
+  z-index: 2000;
+}
+.navbar-collapse .navbar-right a {
+  -webkit-animation: 1000s fall-list_btn_top_left cubic-bezier(0.85, 0.18, 1, 1.01) 7s;
+  animation: 1000s fall-list_btn_top_left cubic-bezier(0.85, 0.18, 1, 1.01) 7s;
+  z-index: 2000;
+}
 /* #TITLEBACKGROUND {
   background-position: center;
 } */
