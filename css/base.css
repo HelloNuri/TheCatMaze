@@ -1,3 +1,7 @@
+/* space class는 아무 의미 없습니다. 그냥 여백 주려고 넣은 것 */
+.space{
+
+}
 body {
   width: 100%;
   background-color: black;
