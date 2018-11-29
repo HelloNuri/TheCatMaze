@@ -4,13 +4,14 @@
 }
 
 /* toggle hint */
-/**
+/*
  *
  * Pure CSS Toggle List
  * Created by Alex Erlandsson
  * https://alexerlandsson.com
  *
- **/
+ *
+ */
 /* SCSS Variables & Mixins */
 /* Toggle List */
 .container.hint {
