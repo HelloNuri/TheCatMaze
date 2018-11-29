@@ -1,0 +1,126 @@
+.puzzle {
+  width: 600px;
+  height: 300px;
+}
+
+/* toggle hint */
+/**
+ *
+ * Pure CSS Toggle List
+ * Created by Alex Erlandsson
+ * https://alexerlandsson.com
+ *
+ **/
+/* SCSS Variables & Mixins */
+/* Toggle List */
+.container.hint {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 45px;
+  padding-bottom: 15px;
+}
+
+.container.hint .header.hint {
+  width: 100%;
+  color: #000;
+}
+
+.container.hint .header.hint p.hint {
+  color: #808080;
+  margin-bottom: 0;
+}
+
+.container.hint .item.hint {
+  width: 100%;
+  margin-bottom: 7.5px;
+}
+
+.container.hint .item.hint input[type="checkbox"].hint {
+  display: none;
+}
+
+.container.hint .item.hint input[type="checkbox"].hint.hint:checked.hint+label {
+  background-color: #00c255;
+  color: #FFF;
+}
+
+.container.hint .item.hint input[type="checkbox"].hint.hint:checked.hint+label.hint:after {
+  content: "-";
+  color: #FFF;
+}
+
+.container.hint .item.hint input[type="checkbox"].hint.hint:checked.hint+label.hint+div {
+  display: block;
+}
+
+.container.hint .item.hint label.hint {
+  display: block;
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 15px;
+  background-color: #FFF;
+  color: #353535;
+  cursor: pointer;
+  webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container.hint .item.hint label.hint.hint:after {
+  content: "+";
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  color: #353535;
+}
+
+.container.hint .item.hint label.hint.hint:hover {
+  background-color: #00c255;
+  color: #FFF;
+  -webkit-transition: background-color 500ms linear;
+  -moz-transition: background-color 500ms linear;
+  -o-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.container.hint .item.hint label.hint.hint:hover:after {
+  color: #FFF;
+}
+
+.container.hint .item.hint div.hint {
+  display: none;
+  border-top: none;
+  padding: 15px;
+  background-color: #FFF;
+  text-align: left;
+}
+
+/* Base */
+*.hint {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h3.hint, p.hint {
+  margin: 0px 0px 15px 0px;
+  color: black;
+  text-align: center;
+}
+
+p.hint {
+  font-size: 15px;
+}
+
+a.hint {
+  color: inherit;
+  text-decoration: none;
+}
