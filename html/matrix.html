@@ -26,15 +26,15 @@
 <script>
   var c = document.getElementById("c");
   var ctx = c.getContext("2d");
-  //making the canvas full screen
+  //canvas를 전체화면으로
   c.height = window.innerHeight;
   c.width = window.innerWidth;
-  //code characters
+  //뭔가 있어보이는 문자열
   var code = "1001010101110101010101010010101000101011101111010101010110101010101010101110000101";
-  //converting the string into an array of single characters
+  //문자열을 배열로 변환 및 크기조정
   code = code.split("");
   var font_size = 15;
-  var columns = c.width / font_size; //number of columns for the rain
+  var columns = c.width / font_size; //가로 줄 수 설정
   //an array of drops - one per column
   var drops = [];
   //x below is the x coordinate
