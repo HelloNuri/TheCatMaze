@@ -5,23 +5,27 @@ body {
   color: white;
   font-family: 'Lucida Grande', Verdana, Arial;
   font-size: 12px;
-  /* background-image: -webkit-gradient(radial,
-    50% 500, 1,
-    50% 500, 400,
-    from(rgba(255, 255, 255, 0.3)),
-    to(rgba(255, 255, 255, 0))); */
   background-image: radial-gradient(900px 800px at center, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0), black);
   background-repeat: no-repeat;
   margin: 0 0;
   padding-top: 72px;
 }
 
-html * {
-  -webkit-touch-callout: none;
+/* img {
+  user-drag: none;
   user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
+  -webkit-user-drag: none;
   -webkit-user-select: none;
+  -ms-user-select: none;
+} */
+html * {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 /* body에 flex를 적용할 수 있다면 삭제 가능 */
