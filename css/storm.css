@@ -2018,15 +2018,16 @@ body {
   z-index: 2000;
 }
 
-#title {
+/* #title { */
+#navbar-header{
   overflow: visible;
   -webkit-animation: 1000s fall-header ease-out 8.5s;
   animation: 1000s fall-header ease-out 8.5s;
 }
 
-#TITLEBACKGROUND {
+/* #TITLEBACKGROUND {
   background-position: center;
-}
+} */
 
 #shareMenu {
   z-index: 2000
