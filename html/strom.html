@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=3.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/storm.css">
+
+
+  <title>storm</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="./frontPage.html" class="navbar-brand"><span class="glyphicon glyphicon-knight" aria-hidden="true"></span> The Cat Maze</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Mazes</a></li>
+          <li><a href="#">Rank</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="form-heading">login Form</h1>
+    <div class="login-form">
+      <div class="main-div">
+        <div class="panel">
+          <h2>Admin Login</h2>
+          <p>Please enter your email and password</p>
+        </div>
+        <form id="Login">
+
+          <div class="form-group">
+
+
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+
+          </div>
+
+          <div class="form-group">
+
+            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+
+          </div>
+          <div class="forgot">
+            <a href="reset.html">Forgot password?</a>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+
+        </form>
+      </div>
+      <p class="botto-text"> Designed by Sunil Rajput</p>
+    </div>
+  </div>
+  <article class="flexContainer">
+    <h1 class="title">회원가입</h1>
+
+    <form method="post">
+      <!-- {% csrf_token %} -->
+      <!-- {{ form.as_p }} -->
+      <input type="submit" value="회원가입" />
+    </form>
+
+  </article>
+
+  <script src="../js/jQuery_3.3.1-min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="../js/riddle.js">
+
+  </script>
+</body>
+
+
+</html>

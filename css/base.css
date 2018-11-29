@@ -1,3 +1,7 @@
+/* space class는 아무 의미 없습니다. 그냥 여백 주려고 넣은 것 */
+.space{
+
+}
 body {
   width: 100%;
   background-color: black;
@@ -11,14 +15,7 @@ body {
   padding-top: 72px;
 }
 
-/* img {
-  user-drag: none;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-} */
+
 html * {
   user-drag: none;
   user-select: none;
