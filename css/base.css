@@ -16,6 +16,14 @@ body {
   padding-top: 72px;
 }
 
+html * {
+  -webkit-touch-callout: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
 /* body에 flex를 적용할 수 있다면 삭제 가능 */
 .flexContainer {
   width: 100%;
