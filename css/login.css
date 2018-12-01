@@ -41,6 +41,9 @@
   text-align: center;
 }
 
+.btn-default{
+  margin-bottom: 10px;
+}
 
 .login-form .btn.btn-primary {
   background: #f0ad4e none repeat scroll 0 0;
