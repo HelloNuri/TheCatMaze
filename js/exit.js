@@ -5,6 +5,3 @@ $(".effect.img-circle").click(function() {
     $(".effect").remove();
   });
 });
-$(".hos").click(function() {
-  document.location.href = "../html/maze_list.html";
-});
