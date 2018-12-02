@@ -1,7 +1,6 @@
 /* space class는 아무 의미 없습니다. 그냥 여백 주려고 넣은 것 */
-.space{
+.space {}
 
-}
 body {
   width: 100%;
   background-color: black;
@@ -14,7 +13,6 @@ body {
   margin: 0 0;
   padding-top: 72px;
 }
-
 
 html * {
   user-drag: none;
@@ -33,6 +31,12 @@ html * {
   flex-direction: column;
 }
 
+.flexContainer1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* 아무 의미 없음 */
 .br {
   display: inline;
@@ -41,6 +45,22 @@ html * {
 hr {
   width: 80%;
   margin: 0 auto;
+}
+
+.navbar-inverse {
+  background: #black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  background: #23313f;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
 }
 
 /* 본문 */
@@ -73,18 +93,6 @@ form input:focus {
   text-align: center;
 }
 
-.navbar-inverse {
-  background: #black;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-  color: white;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover {
-  background: #23313f;
-}
-
-.navbar-inverse .navbar-brand {
-  color: white;
+input {
+  color: black;
 }
