@@ -8,7 +8,51 @@
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/exit.css">
 
+
   <title>The Cat Maze</title>
+  <style media="screen">
+    #namuwiki{
+      width: 440px;
+      height: 550px;
+    }
+    .backDoor
+    {
+
+  background-color: red;
+    width:200px;
+    height:200px;
+    }
+
+    .leftDoor
+    {
+    width:100px;
+    height:200px;
+
+    transform-origin: left;
+    /*Speed of the Door animation*/
+    transition: all 2s ease-in-out;
+    }
+    .rightDoor
+    {
+    width:100px;
+    height:200px;
+
+    transform-origin: right;
+    /*Speed of the Door animation*/
+    transition: all 2s ease-in-out;
+    }
+
+    .leftDoorOpen
+    {
+    /*prespectiv creates the door open effect*/
+    transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(+80deg);
+    }
+    .rightDoorOpen
+    {
+    /*prespectiv creates the door open effect*/
+    transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-80deg);
+    }
+  </style>
 </head>
 
 <body>
@@ -40,22 +84,22 @@
   <article class="flexContainer">
 
     <article class="story flexContainer">
-      <p class="text">열쇠를 찾았다</p>
-      <p class="text">열쇠를 가져가서 문을 열어보자</p>
       <figure id="gate" class="backDoor flexContainer1">
         <img src="../img/gate_left.png" id="gate_left" class="leftDoor" alt="">
         <img src="../img/gate_right.png" id="gate_right" class="rightDoor" alt="">
       </figure>
-      <figure class="effect img-circle">
-        <img src="../img/namuwiki.jpg" class="img-circle" id="namuwiki" alt="">
-      </figure>
-      <figure id="storm">
+      <figure>
         <div class="sigong">
           <div class="sigong_detail1"></div>
           <div class="sigong_detail2"></div>
         </div>
         <div class="hos"></div>
       </figure>
+      <figure>
+        <img src="../img/namuwiki.jpg" class="img-circle" id="namuwiki" alt="">
+      </figure>
+      <p class="text">열쇠를 찾았다</p>
+      <p class="text">열쇠를 가져가서 문을 열어보자</p>
     </article>
     <!-- <div style="display: none;"> -->
     <audio autoplay="true" controls="" class="attach_audio" src="../mp3/storm2.mp3" type="audio/mpeg"></audio>
@@ -65,9 +109,6 @@
     <script src="../js/jQuery_3.3.1-min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="../js/doorOpen.js">
-
-    </script>
-    <script src="../js/exit.js">
 
     </script>
 </body>
