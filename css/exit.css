@@ -1,0 +1,69 @@
+#namuwiki {
+  width: 440px;
+  height: 550px;
+}
+
+#storm {
+  position: absolute;
+  left: 60%;
+  top: 400px;
+}
+
+#gate {
+  position: absolute;
+  left: 41.5%;
+  top: 340px;
+}
+
+.effect {
+  display: inline-block;
+  position: relative;
+}
+
+.effect:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: inset 0 0 60px #222
+    /* 배경과 같은 색 */
+    ,
+    inset 0 0 60px #222,
+    inset 0 0 60px #222,
+    inset 0 0 60px #222;
+}
+
+.backDoor {
+  width: 200px;
+  height: 200px;
+}
+
+.leftDoor {
+  width: 100px;
+  height: 200px;
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 2s ease-in-out;
+}
+
+.rightDoor {
+  width: 100px;
+  height: 200px;
+  transform-origin: right;
+  /*Speed of the Door animation*/
+  transition: all 2s ease-in-out;
+}
+
+.leftDoorOpen {
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(+80deg);
+}
+
+.rightDoorOpen {
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-80deg);
+}
